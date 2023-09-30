@@ -18,57 +18,58 @@
 <p> 
 <h3>some Corrleations : </h3>
 <ol>
- <li> After doing Data collection and Data prepare data is Cleaned
-- By using EDA I found some results : first = correlations:</li>
+ <h4> After doing Data collection and Data prepare data is Cleaned</h4>
+<p>- By using EDA I found some results : first = correlations:</p>
 <li>Ages have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]
-o Good : In range [ 0.2 – 0.3 ] with columns ( YearWithCurrentManager , 
+<li> Good : In range [ 0.2 – 0.3 ] with columns ( YearWithCurrentManager , 
 YearSinceLastPromotion , YearInCurrentRole , YearsAtCompany , numberCompanyWorked , 
-Education ) 
-o Strong: in Range [ 0.5 – 0.7] with Columns (TotalWorkingYears, MonthlyIncome, JopLevel) </li>
-<li> JopLevel have good or Strong relationship: good [0.2 – 0.4] , strong [ 0.5 – 1.0 ]
-o Good : with columns ( YearWithCurrentManager , YearSinceLastPromotion ,
-YearInCurrentRole )
-o Strong : with columns ( YearsAtCompany , TotalWorkingYears , MonthlyIncome (95%) ) </li>
-<li> MonthlyIncome have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]
-o Good : ( YearWithCurrentManager , YearSinceLastPromotion , YearInCurrentRole)
-o Strong : with Columns ( YearsAtCompany, TotalWorkingYear ) </li>
-<li> PercentSalaryHeky have Strong relationship with PerformaceRating </li>
+Education ) </li>
+<li> Strong: in Range [ 0.5 – 0.7] with Columns (TotalWorkingYears, MonthlyIncome, JopLevel) </li>
+<p> JopLevel have good or Strong relationship: good [0.2 – 0.4] , strong [ 0.5 – 1.0 ]</p>
+<li>  Good : with columns ( YearWithCurrentManager , YearSinceLastPromotion ,
+YearInCurrentRole )</li>
+<li>  Strong : with columns ( YearsAtCompany , TotalWorkingYears , MonthlyIncome (95%) ) </li>
+<p> MonthlyIncome have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]</p>
+<li> Good : ( YearWithCurrentManager , YearSinceLastPromotion , YearInCurrentRole)</li>
+<li>  Strong : with Columns ( YearsAtCompany, TotalWorkingYear ) </li>
+<p> PercentSalaryHeky have Strong relationship with PerformaceRating </p>
 <li> TotalWorkingYear have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ] </li>
-o Good : columns ( YearWithCurrentManager , YearSinceLastPromotion , YearInCurrentRole , 
-numberCompanyWorked )
-o Strong : with columns ( YearsAtCompany ) </li>
-<li> YearsAtCompany : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]
-o Strong : with columns ( YearWithCurrentManager , YearSinceLastPromotion ,
+<li> Good : columns ( YearWithCurrentManager , YearSinceLastPromotion , YearInCurrentRole , 
+numberCompanyWorked )</li>
+<li> Strong : with columns ( YearsAtCompany ) </li>
+<p> YearsAtCompany : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]</p>
+<li>  Strong : with columns ( YearWithCurrentManager , YearSinceLastPromotion ,
 YearInCurrentRole ) </li>
-<li> YearsInCurrentRole : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]
-o Strong : with Columns (YearWithCurrentManager , YearSinceLastPromotion )  </li>
-<li> YearsSinceLastPromotions : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]
-o Strong : with Columns ( YearWithCurrentManager ) </li>
+<p> YearsInCurrentRole : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]</p> 
+<li> Strong : with Columns (YearWithCurrentManager , YearSinceLastPromotion )  </li>
+<p> YearsSinceLastPromotions : have good or Strong relationship : good [0.2 – 0.4 ] , strong [ 0.5 – 1.0 ]</p>
+<li>Strong : with Columns ( YearWithCurrentManager ) </li>
 </ol>
 ******************************************************************************************
 <p><b>Business Questions i asked to tring discovering some Insights :</b> <p>
   <ol>
-<li> How does the daily rate vary for employees who work overtime compared to those who don't ?
-o We found number of employes That Not Worked OverTime Have High Daily Rate by rate : 
+<p><b>How does the daily rate vary for employees who work overtime compared to those who don't ?</b></p>
+<li> We found number of employes That Not Worked OverTime Have High Daily Rate by rate : 
 71.49% , number employees that have low dailyRate by rate : 28,51%</li>
-<li> Do married employees tend to have higher or lower salaries compared to their single or divorced 
+<p><b> Do married employees tend to have higher or lower salaries compared to their single or divorced </b></p>
 counterparts ?
-o I found the Married and Divorced employees have the same Rate of monthlyIncome by rate : 
+<li> I found the Married and Divorced employees have the same Rate of monthlyIncome by rate : 
 34.9 % , but in single have low of them by rate : 30.2% with difference 4.7%</li>
-<li> Does the percentage of salary hike differ for employees with Jop roles and different marital statuses 
-?
-o No we found SalaryHike Not really differ between JopRoles and marital statuses </li>
-<li> How does job satisfaction vary across different job roles ?
-o I found the most role have high number of jop satisfactions [ Sales Executive - Research 
-scientists ] 
-o But we found the average jop satisfactions in all JopRoles was nearly : 2.5 – 3 where the most 
+<p><b> Does the percentage of salary hike differ for employees with Jop roles and different marital statuses ? </b></p>
+<li> No we found SalaryHike Not really differ between JopRoles and marital statuses </li>
+<p><b>How does job satisfaction vary across different job roles ?</b></p>
+<li> I found the most role have high number of jop satisfactions [ Sales Executive - Research 
+scientists ] </li>
+<li> But we found the average jop satisfactions in all JopRoles was nearly : 2.5 – 3 where the most 
 employees give rate 2.5 these mean they have a problem with their JopRoles</li>
-<li> Some Notes :
-o Some reasons that maybe cause emp left companys [ distanceFromHome , Environment 
-Satisfaction , Jop Satisfaction , monthlyIncome , worklifeBalance , YearLastPromotion , 
+<h2> Some Notes </h2>:
+  </ol>
+  <ul>
+<li> Some reasons that maybe cause emp left companys [ distanceFromHome , Environment 
+Satisfaction , Jop Satisfaction , monthlyIncome , worklifeBalance , YearLastPromotion ] </li>
 <li> Remember DataSet isnot Imbalanced as I found more that 1200 emp not left company , the number 
 of emp that left company was 200 there are a bias or imbalanced </li>
-    </ol>
+  </ul>
   </p>
     
 <h3>Machine Learning Stage</h3> :
