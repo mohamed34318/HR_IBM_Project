@@ -48,7 +48,7 @@ YearInCurrentRole ) </li>
 ******************************************************************************************
 <p><b>Business Questions i asked to tring discovering some Insights :</b> <p>
   <ol>
-<p><b>How does the daily rate vary for employees who work overtime compared to those who don't ?</b></p>
+<p><b>- How does the daily rate vary for employees who work overtime compared to those who don't ?</b></p>
 <li> We found number of employes That Not Worked OverTime Have High Daily Rate by rate : 
 71.49% , number employees that have low dailyRate by rate : 28,51%</li>
 <p><b> Do married employees tend to have higher or lower salaries compared to their single or divorced </b></p>
