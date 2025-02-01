@@ -1,5 +1,4 @@
-# Project 3 : HR IBM project
-<h3> Data Analyst internship from Meriskills : Task03 </h3>
+# Project 3 : HR IBM project - Employee Attrition Analysis
 <p>Business Problem :<b> Why employees left our company ? or why the rate of attriaion become higher  ? </b></p>
 - we have some steps before going to make a model to solve this problem :
 <ol>
