@@ -1,4 +1,4 @@
-# Project 3 : HR IBM project - Employee Attrition Analysis
+# HR IBM project - Employee Attrition Analysis Project
 <p>Business Problem :<b> Why employees left our company ? or why the rate of attriaion become higher  ? </b></p>
 - we have some steps before going to make a model to solve this problem :
 <ol>
